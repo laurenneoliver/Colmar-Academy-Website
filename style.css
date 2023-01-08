@@ -2,8 +2,10 @@
     font-family: sans-serif;
     color: #606060;
 }
-head {
+header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #logo{
     display: flex;
@@ -19,8 +21,8 @@ nav {
     display: flex;
     right: 24px;
     padding: 0;
-    justify-content: right;
+    align-items: center;
 }
 .item {
-    margin: 16px;
+    margin: 0px 16px;
 }
