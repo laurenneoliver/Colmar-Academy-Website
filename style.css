@@ -1,5 +1,26 @@
+*{
+    font-family: sans-serif;
+    color: #606060;
+}
+head {
+    display: flex;
+}
 #logo{
     display: flex;
     align-items: center;
     justify-content: left;
+    padding-left: 24px;
+    height: 32px;
+}
+#academy {
+    color: #bebebe;
+}
+nav {
+    display: flex;
+    right: 24px;
+    padding: 0;
+    justify-content: right;
+}
+.item {
+    margin: 16px;
 }
