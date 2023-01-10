@@ -29,18 +29,25 @@ nav {
 .banner {
     display: flex;
     background-color: #d8d8d8;
-    align-items: center;
     margin-top: 5px;
     padding: 24px;
 }
-.banner img {
+
+.container {
     width: 60%;
-    padding: 32px 24px;
+    padding-right: 32px;
 }
-.banner p{
+.swiper-slide img {
+    width: auto;
+    height: fit-content;
+}
+
+
+
+#side p{
     font-family: Arial, Helvetica, sans-serif;
 }
-#button {
+.button {
     background-color: #4a4a4a;
     text-align: center;
     padding-top: 8px;
@@ -48,7 +55,7 @@ nav {
     border-radius: 4px;
 }
 
-#button p {
+.button p {
     color: white;
     margin: 0;
 }
