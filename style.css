@@ -34,15 +34,19 @@ nav {
 }
 
 .container {
-    width: 60%;
+    max-width: 560px;
     padding-right: 32px;
+    justify-content: center;
 }
 .swiper-slide {
     width:auto;
+    justify-content: center;
 }
 .swiper-slide img {
+    padding-left: 15px;
     width: auto;
     height: fit-content;
+    justify-content: center;
 }
 
 
