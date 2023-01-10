@@ -37,6 +37,9 @@ nav {
     width: 60%;
     padding-right: 32px;
 }
+.swiper-slide {
+    width:auto;
+}
 .swiper-slide img {
     width: auto;
     height: fit-content;
