@@ -41,12 +41,21 @@ nav {
 .swiper-slide {
     width:auto;
     justify-content: center;
+    text-align: center;
+}
+.swiper-slide h2 {
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    color: white;
 }
 .swiper-slide img {
     padding-left: 15px;
     width: auto;
     height: fit-content;
     justify-content: center;
+    filter: brightness(50%);
+    
 }
 
 
