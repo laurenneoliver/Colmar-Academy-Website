@@ -45,9 +45,11 @@ nav {
 }
 .swiper-slide h2 {
     position: absolute;
-    left: 45%;
-    top: 40%;
+    left: 30%;
+    top: 35%;
     color: white;
+    width: 40%;
+    height: 30%;
 }
 .swiper-slide img {
     padding-left: 15px;
