@@ -31,6 +31,7 @@ nav {
     background-color: #d8d8d8;
     margin-top: 5px;
     padding: 24px;
+    justify-content: center;
 }
 
 .container {
@@ -59,7 +60,9 @@ nav {
     filter: brightness(50%);
     
 }
-
+#side {
+    justify-content: center;
+}
 
 
 #side p{
