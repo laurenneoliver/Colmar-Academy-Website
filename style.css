@@ -23,6 +23,9 @@ nav {
     padding: 0;
     align-items: center;
 }
+#menu{
+    display: none;
+}
 .item {
     margin: 0px 16px;
 }
@@ -79,4 +82,17 @@ nav {
 .button p {
     color: white;
     margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .item {
+        display: none;
+    }
+    #menu{
+        display: flex;
+        height: 32px;
+    }
+    .banner{
+        flex-wrap: wrap;
+    }
 }
