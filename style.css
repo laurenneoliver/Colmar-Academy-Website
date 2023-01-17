@@ -95,4 +95,10 @@ nav {
     .banner{
         flex-wrap: wrap;
     }
+    header {
+        justify-content: space-between;
+    }
+    .banner {
+        padding: 24px, 0;
+    }
 }
