@@ -101,4 +101,11 @@ nav {
     body {
         margin: 0;
     }
+    .container {
+        max-width: 100%;
+        padding-right: 0;
+    }
+    .container img {
+        padding: 0;
+    }
 }
