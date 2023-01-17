@@ -98,7 +98,7 @@ nav {
     header {
         justify-content: space-between;
     }
-    .banner {
-        padding: 24px, 0;
+    body {
+        margin: 0;
     }
 }
