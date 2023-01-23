@@ -153,4 +153,13 @@ nav {
     .container img {
         padding: 0;
     }
+    .main {
+        flex-wrap: wrap;
+    }
+    #video {
+        width: 100%;
+    }
+    #sideBar {
+        width: 100%;
+    }
 }
