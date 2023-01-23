@@ -51,26 +51,42 @@
                 <div class="button"><a href="signIn.html"><p>Start Here</p></a></div>
             </div>
         </div>
+        <div class="main">
+            <div id="video">
+                <video controls><source src="videos/thesis.mp4" type="video/mp4"></video>
+                <h2>We are expanding and growing together</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div id="sideBar">
+                <div id="orientation">
+                    <img src="images/information-orientation.jpg" alt="students walking on path"/>
+                    <div class="text">
+                    <h3>Orientation date</h3>
+                    <p>Tue 10/11 & Wed 10/12 8am-3pm</p>
+                    </div>
+                </div>
+                <div id="guestLecture">
+                    <img src="images/information-guest-lecture.jpg" alt="face of a man"/>
+                    <div class="text">
+                    <h3>Our guest Lecture</h3>
+                    <p>Find which campus is close by you</p>
+                    </div>
+                </div>
+                <div id="campus">
+                    <img src="images/information-campus.jpg" alt="inside campus"/>
+                    <div class="text">
+                    <h3>Our campus</h3>
+                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-        loop: true,
-
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
-
-        // Navigation arrows
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        });
+    <script src="./script.js">
     </script>
     </body>
 </html>
