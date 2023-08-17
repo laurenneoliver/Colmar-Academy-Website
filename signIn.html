@@ -21,10 +21,19 @@
         </nav>
     </header>
     <body>
-        <h1>Sign in coming soon...</h1>
-        <h3>Email</h3>
-        <input type="email">
-        <h3>Password</h3>
-        <input type="password">
+        <section id="Signin">
+            <h1>Sign Up</h1>
+              <form action="submission.html" method="GET">
+                <label for="email">Email:</label>
+                <br>
+                <input id="email" name="email" type="email">
+                <br>
+                <label for="pw">Password:</label>
+                <br>
+                <input id="pw" name="pw" type="password" required minlength="8" maxlength="15">
+                <br>
+                <input type="submit" value="Submit">
+              </form>
+            </section>
     </body>
 </html>
